@@ -466,7 +466,10 @@ h3 { font-size: 1.15rem; }
   .stat:nth-child(2) { border-right: none; }
   .stat:nth-child(-n+2) { border-bottom: 1px solid var(--border); }
   .skills-grid, .projects-grid, .cert-grid, .learn-list, .about-facts { grid-template-columns: 1fr; }
-  .float-card { display: none; }
+  .float-card {
+    display: flex !important;
+    transform: scale(0.78);
+}
   .footer-inner { flex-direction: column; text-align: center; }
   .contact-card { padding: 44px 20px; }
 }
