@@ -611,3 +611,78 @@ a:focus-visible, button:focus-visible {
   outline-offset: 3px;
 }
 
+
+/* MOBILE PROFILE IMAGE + FLOATING SKILL CARDS */
+@media (max-width: 680px) {
+
+  .hero-visual {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: visible;
+    margin-bottom: 35px;
+  }
+
+  .photo-wrap {
+    width: min(250px, 70vw);
+    position: relative;
+    margin: 0 auto;
+    overflow: visible;
+  }
+
+  .float-card {
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 10px;
+    font-size: 0.68rem;
+    white-space: nowrap;
+    z-index: 5;
+  }
+
+  .float-card strong {
+    font-size: 0.78rem;
+  }
+
+  .float-card span {
+    font-size: 0.68rem;
+  }
+
+  /* Power BI — upper left */
+  .fc-1 {
+    top: 8%;
+    left: -8%;
+  }
+
+  /* SQL — lower left */
+  .fc-2 {
+    bottom: 10%;
+    left: -7%;
+  }
+
+  /* Python — right side */
+  .fc-3 {
+    top: 44%;
+    right: -8%;
+  }
+}
+
+@media (max-width: 380px) {
+  .photo-wrap {
+    width: 66vw;
+  }
+
+  .float-card {
+    padding: 7px 8px;
+    gap: 6px;
+    font-size: 0.64rem;
+  }
+
+  .float-card strong {
+    font-size: 0.72rem;
+  }
+
+  .float-card span {
+    font-size: 0.62rem;
+  }
+}
