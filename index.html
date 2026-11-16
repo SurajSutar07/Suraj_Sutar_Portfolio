@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+
+<html data-theme="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Suraj Sutar | Data Analyst &amp; MIS Executive</title>
+<meta content="Suraj Sutar — Data Analyst and MIS Executive skilled in SQL, Python, Power BI and Advanced Excel, with experience in analytics, dashboards and business reporting." name="description"/>
+<meta content="Suraj Sutar | Data Analyst &amp; MIS Executive" property="og:title"/>
+<meta content="Data Analytics · SQL · Python · Power BI · Advanced Excel — turning business data into actionable insights." property="og:description"/>
+<meta content="assets/profile.jpg" property="og:image"/>
+<link href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'&gt;&lt;rect width='32' height='32' rx='8' fill='%2314b8a6'/&gt;&lt;rect x='7' y='17' width='4' height='8' rx='1' fill='white'/&gt;&lt;rect x='14' y='11' width='4' height='14' rx='1' fill='white'/&gt;&lt;rect x='21' y='7' width='4' height='18' rx='1' fill='white'/&gt;&lt;/svg&gt;" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<script>
+    // Apply saved theme before paint to avoid a flash
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+<div aria-hidden="true" class="bg-grid"></div>
+<div aria-hidden="true" class="progress" id="progress"></div>
+<!-- ================= NAV ================= -->
+<header class="nav" id="nav">
+<div class="container nav-inner">
+<a aria-label="Home" class="logo" href="#home">
+<span class="logo-mark">SS</span><span class="logo-text">Suraj<span class="accent">.</span></span>
+</a>
+<nav class="nav-links" id="navLinks">
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>
+<a href="#certifications">Certifications</a>
+<a href="#learning">Learning</a>
+<a href="#contact">Contact</a>
+</nav>
+<div class="nav-actions">
+<button aria-label="Switch between dark and light theme" class="theme-toggle" id="themeToggle" title="Switch theme">
+<svg class="icon-sun" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+<svg class="icon-moon" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path></svg>
+</button>
+<button aria-expanded="false" aria-label="Open menu" class="menu-btn" id="menuBtn">
+<span></span><span></span><span></span>
+</button>
+</div>
+</div>
+</header>
+<main>
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+<div class="container hero-inner">
+<div class="hero-text reveal">
+<p class="eyebrow"><span class="dot"></span> MIS Executive · Data Analyst · Pune</p>
+<h1>Hi, I’m <span class="gradient-text">Suraj Sutar</span></h1>
+<p class="typed-line">I work with <span class="typed" id="typed">SQL</span><span class="caret">|</span></p>
+<p class="hero-sub">Data Analyst with hands-on experience in data cleaning, exploratory analysis, dashboard development and business reporting. Currently working as an MIS Executive at GK Energy Ltd., where I manage operational data, develop MIS reports and track business performance using Advanced Excel.</p>
+<div class="hero-cta">
+<a class="btn btn-primary" href="#projects">View Projects
+              <svg fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="18"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>
+</a>
+<a class="btn btn-ghost" href="assets/Suraj_Sutar_Resume.pdf" rel="noopener" target="_blank">View Resume
+              <svg fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="18"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"></path></svg>
+</a>
+</div>
+<div class="socials">
+<a aria-label="LinkedIn" href="https://www.linkedin.com/in/surajsutar2005" rel="noopener" target="_blank">
+<svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"></path></svg>
+</a>
+<a aria-label="GitHub" href="https://github.com/SurajSutar07" rel="noopener" target="_blank">
+<svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1.2.9 2.3v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"></path></svg>
+</a>
+
+<a aria-label="Email" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=sutarsuraj843@gmail.com&amp;su=Professional%20Enquiry" rel="noopener" target="_blank">
+<svg fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20"><rect height="16" rx="2" width="20" x="2" y="4"></rect><path d="m22 7-10 6L2 7"></path></svg>
+</a>
+</div>
+</div>
+<div class="hero-visual reveal">
+<div class="photo-wrap">
+<div class="photo-ring"></div>
+<img alt="Professional portrait of Suraj Sutar" class="photo" decoding="async" fetchpriority="high" height="700" src="assets/profile.jpg" width="700"/>
+<div class="float-card fc-1">
+<svg height="28" viewbox="0 0 60 28" width="60"><polyline fill="none" points="2,24 12,18 22,20 32,10 42,13 58,3" stroke="var(--accent)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></polyline></svg>
+<div><strong>Power BI</strong><span>Dashboards &amp; KPIs</span></div>
+</div>
+<div class="float-card fc-2">
+<span class="code-chip">SELECT</span>
+<div><strong>SQL</strong><span>CTEs · Window fns</span></div>
+</div>
+<div class="float-card fc-3">
+<span class="py-chip">py</span>
+<div><strong>Python</strong><span>Pandas · NumPy</span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="container stats reveal">
+<div class="stat"><span class="stat-num" data-count="5">0</span><span class="stat-label">Featured analytics projects</span></div>
+<div class="stat"><span class="stat-num" data-count="2">0</span><span class="stat-label">Professional experiences</span></div>
+<div class="stat"><span class="stat-num" data-count="6">0</span><span class="stat-label">Core analytics tools</span></div>
+<div class="stat"><span class="stat-num" data-count="2026">0</span><span class="stat-label">B.Tech CSE graduate</span></div>
+</div>
+</section>
+<!-- ================= ABOUT ================= -->
+
+<section class="section" id="about">
+  <div class="container about-grid">
+
+    <div class="reveal">
+      <p class="section-tag">01 · About Me</p>
+      <h2>Turning data into meaningful business decisions.</h2>
+    </div>
+
+    <div class="about-text reveal">
+
+      <p>
+        I’m a Computer Science graduate with hands-on experience in
+        <strong>MIS reporting, data analytics and business intelligence.</strong>
+        Currently working as an <strong>MIS Executive at GK Energy Ltd. Pune, Maharashtra</strong>,
+        I focus on managing operational data, developing Excel-based reports,
+        validating datasets and tracking business performance to support
+        informed decision-making.
+      </p>
+
+      <p>
+        Previously, I completed a six-month
+        <strong>Data Analyst internship at Maxgen Technologies Pvt. Ltd. Pune, Maharashtra</strong>,
+        where I worked with Python, SQL, Advanced Excel and Power BI across
+        data cleaning, exploratory data analysis, dashboard development
+        and reporting. My earlier experience in Python development also
+        strengthened my understanding of programming and task automation.
+      </p>
+
+      <p>
+        I enjoy transforming complex datasets into structured reports,
+        interactive dashboards and actionable business insights.
+        I’m continuously expanding my analytical and technical capabilities,
+        with a focus on <strong>Data Analytics, MIS Reporting and
+        Business Intelligence.</strong>
+      </p>
+
+      <div class="about-facts">
+
+        <div>
+          <span class="fact-k">Location</span>
+          <span class="fact-v">Pune, Maharashtra</span>
+        </div>
+
+        <div>
+          <span class="fact-k">Education</span>
+          <span class="fact-v">B.Tech CSE · SITCOE · 2026</span>
+        </div>
+<div>
+  <span class="fact-k">Professional Focus</span>
+  <span class="fact-v">Data Analytics | MIS Reporting | Business Intelligence</span>
+</div>
+
+<div>
+  <span class="fact-k">Contact</span>
+  <span class="fact-v">
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sutarsuraj843@gmail.com"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="about-contact-link">
+      sutarsuraj843@gmail.com ↗
+    </a>
+  </span>
+</div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+
+<section class="section" id="skills">
+<div class="container">
+<div class="section-head reveal">
+<p class="section-tag">02 · Skills</p>
+<h2>My toolkit</h2>
+</div>
+
+<div class="skills-grid">
+
+<!-- SQL -->
+<article class="skill-card reveal">
+<div class="skill-icon">
+<svg fill="none" height="26" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="26">
+<ellipse cx="12" cy="5" rx="8" ry="3"></ellipse>
+<path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"></path>
+</svg>
+</div>
+<h3>SQL</h3>
+<p>Writing queries to extract, filter, join and analyse structured business data.</p>
+<div class="tags">
+<span>MySQL</span>
+<span>Joins</span>
+<span>Subqueries</span>
+<span>CTEs</span>
+<span>Window Functions</span>
+<span>Aggregations</span>
+</div>
+</article>
+
+<!-- POWER BI -->
+<article class="skill-card reveal">
+<div class="skill-icon">
+<svg fill="none" height="26" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="26">
+<path d="M3 3v18h18"></path>
+<rect height="6" width="3" x="7" y="12"></rect>
+<rect height="10" width="3" x="12" y="8"></rect>
+<rect height="13" width="3" x="17" y="5"></rect>
+</svg>
+</div>
+<h3>Power BI</h3>
+<p>Building interactive dashboards and visual reports to monitor business performance and KPIs.</p>
+<div class="tags">
+<span>Power BI</span>
+<span>DAX Basics</span>
+<span>Power Query</span>
+<span>Data Modelling</span>
+<span>KPI Dashboards</span>
+</div>
+</article>
+
+<!-- PYTHON -->
+<article class="skill-card reveal">
+<div class="skill-icon">
+<svg fill="none" height="26" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="26">
+<path d="m8 9-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"></path>
+</svg>
+</div>
+<h3>Python</h3>
+<p>Performing data cleaning, exploratory analysis and analytical tasks using Python libraries.</p>
+<div class="tags">
+<span>Pandas</span>
+<span>NumPy</span>
+<span>Matplotlib</span>
+<span>Seaborn</span>
+<span>Jupyter Notebook</span>
+</div>
+</article>
+
+<!-- ADVANCED EXCEL -->
+<article class="skill-card reveal">
+<div class="skill-icon">
+<svg fill="none" height="26" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="26">
+<rect height="18" rx="2" width="18" x="3" y="3"></rect>
+<path d="M3 9h18M3 15h18M9 3v18M15 3v18"></path>
+</svg>
+</div>
+<h3>Advanced Excel</h3>
+<p>Creating operational MIS reports, consolidating datasets and analysing business data using advanced Excel functions.</p>
+<div class="tags">
+<span>Pivot Tables</span>
+<span>Pivot Charts</span>
+<span>XLOOKUP</span>
+<span>INDEX-MATCH</span>
+<span>FILTER</span>
+<span>CHOOSECOLS</span>
+<span>HSTACK</span>
+</div>
+</article>
+
+<!-- MIS & DATA MANAGEMENT -->
+<article class="skill-card reveal">
+<div class="skill-icon">
+<svg fill="none" height="26" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="26">
+<circle cx="6" cy="6" r="2.5"></circle>
+<circle cx="6" cy="18" r="2.5"></circle>
+<circle cx="18" cy="12" r="2.5"></circle>
+<path d="M6 8.5v7M8.3 7l7.4 4M8.3 17l7.4-4"></path>
+</svg>
+</div>
+<h3>MIS &amp; Data Management</h3>
+<p>Managing operational datasets, preparing reports, validating information and maintaining accurate business records.</p>
+<div class="tags">
+<span>MIS Reporting</span>
+<span>Data Validation</span>
+<span>Data Consolidation</span>
+<span>KPI Tracking</span>
+<span>Documentation</span>
+</div>
+</article>
+
+<!-- DATA ANALYSIS -->
+<article class="skill-card reveal">
+<div class="skill-icon">
+<svg fill="none" height="26" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="26">
+<path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.4 6.8 19.1l1-5.8L3.5 9.2l5.9-.9z"></path>
+</svg>
+</div>
+<h3>Data Analysis &amp; Reporting</h3>
+<p>Transforming raw business data into meaningful insights through analysis, visualization and accurate reporting.</p>
+<div class="tags">
+<span>Data Cleaning</span>
+<span>EDA</span>
+<span>KPI Analysis</span>
+<span>Data Visualization</span>
+<span>Reporting Automation</span>
+<span>Attention to Detail</span>
+</div>
+</article>
+
+</div>
+</div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section class="section" id="experience">
+<div class="container">
+<div class="section-head reveal">
+<p class="section-tag">03 · Experience &amp; Education</p>
+<h2>Where I've been</h2>
+</div>
+
+<div class="timeline">
+
+  <!-- MIS Executive -->
+  <div class="tl-item reveal">
+    <div class="tl-dot"></div>
+    <div class="tl-card">
+      <div class="tl-top">
+        <h3>MIS Executive</h3>
+        <span class="tl-date">Jun 2026 – Present</span>
+      </div>
+      <p class="tl-org">GK Energy Ltd. · Pune, Maharashtra.</p>
+      <ul>
+        <li>Prepare and maintain daily, weekly and monthly MIS reports to support business operations and management decision-making.</li>
+        <li>Manage operational data, validate records, consolidate datasets and ensure accuracy and timely reporting.</li>
+        <li>Develop Excel-based reports and dashboards using Pivot Tables, XLOOKUP, INDEX-MATCH and dynamic array functions.</li>
+        <li>Coordinate with internal teams to collect updates, track performance and maintain reporting documentation.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Data Analyst Intern -->
+  <div class="tl-item reveal">
+    <div class="tl-dot"></div>
+    <div class="tl-card">
+      <div class="tl-top">
+        <h3>Data Analyst Intern</h3>
+        <span class="tl-date">Dec 2025 – May 2026</span>
+      </div>
+      <p class="tl-org">Maxgen Technologies Pvt. Ltd. · Pune, Maharashtra.</p>
+      <ul>
+        <li>Completed a six-month Data Analytics internship working across data cleaning, analysis and reporting workflows.</li>
+        <li>Performed data cleaning, preprocessing and exploratory data analysis using Python, Pandas and NumPy.</li>
+        <li>Used SQL (MySQL) to query and analyse structured datasets.</li>
+        <li>Built interactive Power BI dashboards and automated reporting tasks using Excel.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Python Development Intern -->
+  <div class="tl-item reveal">
+    <div class="tl-dot"></div>
+    <div class="tl-card">
+      <div class="tl-top">
+        <h3>Python Development Intern</h3>
+        <span class="tl-date">Jul 2023 - Aug 2023</span>
+      </div>
+      <p class="tl-org">Tecspeak IT Solutions</p>
+      <ul>
+        <li>Developed Python scripts to automate repetitive data-related tasks.</li>
+        <li>Reduced manual effort by approximately 20% through task automation.</li>
+        <li>Applied Python programming concepts to build practical automation solutions.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Education -->
+  <div class="tl-item reveal">
+    <div class="tl-dot"></div>
+    <div class="tl-card">
+      <div class="tl-top">
+        <h3>B.Tech, Computer Science &amp; Engineering</h3>
+        <span class="tl-date">Oct 2022 – May 2026</span>
+      </div>
+      <p class="tl-org">Sharad Institute of Technology, College of Engineering, Ichalkaranji (SITCOE)</p>
+      <ul>
+        <li>CGPA: 7.03</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="section" id="projects">
+  <div class="container">
+
+    <div class="section-head reveal">
+      <p class="section-tag">04 · Projects</p>
+      <h2>Data Analytics Projects</h2>
+      <p class="section-sub">
+        Transforming raw data into meaningful insights through
+        analytics, dashboards and visualization.
+      </p>
+    </div>
+
+    <!-- PROJECT FILTERS -->
+    <div class="filters reveal" role="tablist">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="bi">Power BI</button>
+      <button class="filter" data-filter="sql">SQL</button>
+      <button class="filter" data-filter="python">Python / ML</button>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- 1. CRYPTOCURRENCY ANALYSIS -->
+      <article class="project-card reveal" data-cat="python bi">
+
+        <div class="project-visual project-image">
+          <img
+            src="assets/projects/cryptocurrency-analysis.webp"
+            alt="Cryptocurrency Market Analysis Dashboard"
+            decoding="async" loading="lazy"
+          />
+          <span class="pv-badge">Python · Financial Analytics</span>
+        </div>
+
+        <div class="project-body">
+          <h3>Cryptocurrency Market Analysis</h3>
+
+          <p>
+            Analysed cryptocurrency market data using Python
+            and Binance and CoinGecko APIs. Explored historical
+            price movements, trading volume and market
+            capitalization, applying exploratory analysis and
+            risk evaluation with Power BI visualizations.
+          </p>
+
+          <div class="tags">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Binance API</span>
+            <span>CoinGecko API</span>
+            <span>Power BI</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/SurajSutar07/Crypto-Market-Analysis"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="link-btn">
+              View GitHub Project ↗
+            </a>
+          </div>
+        </div>
+      </article>
+
+
+      <!-- 2. CUSTOMER BEHAVIOR ANALYSIS -->
+      <article class="project-card reveal" data-cat="bi sql python">
+
+        <div class="project-visual project-image">
+          <img
+            src="assets/projects/customer-behavior-analysis.webp"
+            alt="Customer Behavior Analysis Dashboard"
+            decoding="async" loading="lazy"
+          />
+          <span class="pv-badge">Data Analytics · Customer Insights</span>
+        </div>
+
+        <div class="project-body">
+          <h3>Customer Behavior Analysis</h3>
+
+          <p>
+            Analysed customer purchasing patterns, engagement
+            trends and behavioural indicators using Python,
+            SQL and Excel. Performed exploratory data analysis
+            and developed Power BI visualizations to communicate
+            findings and support data-driven decisions.
+          </p>
+
+          <div class="tags">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>SQL</span>
+            <span>Power BI</span>
+            <span>Excel</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/SurajSutar07/Customer-Behavior-Analysis"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="link-btn">
+              View GitHub Project ↗
+            </a>
+          </div>
+        </div>
+      </article>
+
+
+      <!-- 3. HR ANALYTICS DASHBOARD -->
+      <article class="project-card reveal" data-cat="bi">
+
+        <div class="project-visual project-image">
+          <img
+            src="assets/projects/hr-analytics-dashboard.webp"
+            alt="HR Analytics Dashboard"
+            decoding="async" loading="lazy"
+          />
+          <span class="pv-badge">Power BI · HR Analytics</span>
+        </div>
+
+        <div class="project-body">
+          <h3>HR Analytics Dashboard</h3>
+
+          <p>
+            Developed an interactive HR Analytics dashboard using
+            Power BI to explore employee data and workforce patterns.
+            Analysed employee attrition, demographics, salary
+            distribution and workforce trends to generate meaningful
+            insights and support data-driven HR decisions.
+          </p>
+
+          <div class="tags">
+            <span>Power BI</span>
+            <span>HR Analytics</span>
+            <span>Data Visualization</span>
+            <span>Employee Attrition</span>
+            <span>Dashboard Reporting</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/SurajSutar07/HR-Analytics"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="link-btn">
+              View GitHub Project ↗
+            </a>
+          </div>
+        </div>
+      </article>
+
+
+      <!-- 4. BANKING CUSTOMER ANALYSIS -->
+      <article class="project-card reveal" data-cat="bi sql python">
+
+        <div class="project-visual project-image">
+          <img
+            src="assets/projects/banking-customer-analysis.webp"
+            alt="Banking Customer Analysis Dashboard"
+            decoding="async" loading="lazy"
+          />
+          <span class="pv-badge">Power BI · Customer Analytics</span>
+        </div>
+
+        <div class="project-body">
+          <h3>Banking Customer Analysis Dashboard</h3>
+
+          <p>
+            Developed an interactive Power BI dashboard using
+            3,000+ customer records to analyse customer demographics,
+            banking balances, deposits and engagement. Used SQL,
+            Python and Excel for data preparation, analysis and
+            customer segmentation to generate business insights.
+          </p>
+
+          <div class="tags">
+            <span>Power BI</span>
+            <span>SQL</span>
+            <span>Excel</span>
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/SurajSutar07/Banking-Customer-Analysis"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="link-btn">
+              View GitHub Project ↗
+            </a>
+          </div>
+        </div>
+      </article>
+
+
+      <!-- 5. CUSTOMER CHURN ANALYSIS -->
+      <article class="project-card reveal" data-cat="python bi sql">
+
+        <div class="project-visual project-image">
+          <img
+            src="assets/projects/customer-churn-analysis.webp"
+            alt="Customer Churn Analysis Dashboard"
+            decoding="async" loading="lazy"
+          />
+          <span class="pv-badge">Python · Customer Analytics</span>
+        </div>
+
+        <div class="project-body">
+          <h3>Customer Churn Analysis</h3>
+
+          <p>
+            Performed exploratory data analysis to identify customer
+            churn patterns, customer segments and potential retention-risk
+            indicators. Used Python, Pandas and NumPy for data preparation
+            and analysis, with visual reporting to communicate key findings.
+          </p>
+
+          <div class="tags">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>SQL</span>
+            <span>Power BI</span>
+            <span>Excel</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/SurajSutar07"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="link-btn">
+              View GitHub Profile ↗
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="more-link reveal">
+      <a href="https://github.com/SurajSutar07"
+         target="_blank"
+         rel="noopener noreferrer">
+        Explore all projects on GitHub →
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================= CERTIFICATIONS ================= -->
+<section class="section" id="certifications">
+<div class="container">
+<div class="section-head reveal">
+<p class="section-tag">05 · Certifications</p>
+<h2>Job simulations &amp; achievements</h2>
+</div>
+
+
+<div class="cert-grid">
+
+  <!-- Microsoft Excel -->
+  <div class="cert-card reveal">
+    <span class="cert-logo">MS</span>
+    <div>
+      <h3>Microsoft Excel</h3>
+      <p>Preparing Data for Analysis with Microsoft Excel</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/KCW68FNIOP5C"
+         target="_blank" rel="noopener noreferrer"
+         class="cert-link">View Credential ↗</a>
+    </div>
+  </div>
+
+  <!-- Tata Forage -->
+  <div class="cert-card reveal">
+    <span class="cert-logo">Tata</span>
+    <div>
+      <h3>Tata – Forage</h3>
+      <p>Data Visualisation: Empowering Business with Effective Insights Job Simulation</p>
+      <a href="https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/MyXvBcppsW2FkNYCX_ifobHAoMjQs9s6bKS_691363cf181ddcda41624ac8_1774873936785_completion_certificate.pdf"
+         target="_blank" rel="noopener noreferrer"
+         class="cert-link">View Credential ↗</a>
+    </div>
+  </div>
+
+  <!-- Deloitte Forage -->
+  <div class="cert-card reveal">
+    <span class="cert-logo">D</span>
+    <div>
+      <h3>Deloitte – Forage</h3>
+      <p>Data Analytics Job Simulation</p>
+      <a href="https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_691363cf181ddcda41624ac8_1762928471401_completion_certificate.pdf"
+         target="_blank" rel="noopener noreferrer"
+         class="cert-link">View Credential ↗</a>
+    </div>
+  </div>
+
+  <!-- AWS Machine Learning -->
+  <div class="cert-card reveal">
+    <span class="cert-logo">AWS</span>
+    <div>
+      <h3>AWS Academy</h3>
+      <p>Machine Learning Foundations</p>
+      <a href="https://www.credly.com/badges/d6bcab79-1b77-42b8-b172-c48f68447f5a/public_url"
+         target="_blank" rel="noopener noreferrer"
+         class="cert-link">View Credential ↗</a>
+    </div>
+  </div>
+
+  <!-- AWS Cloud Architecting -->
+  <div class="cert-card reveal">
+    <span class="cert-logo">AWS</span>
+    <div>
+      <h3>AWS Academy</h3>
+      <p>Cloud Architecting</p>
+      <a href="https://www.credly.com/badges/34f74f66-50a7-4c84-a125-c505c58de5e4/public_url"
+         target="_blank" rel="noopener noreferrer"
+         class="cert-link">View Credential ↗</a>
+    </div>
+  </div>
+
+  <!-- AICTE Eduskills -->
+  <div class="cert-card reveal">
+    <span class="cert-logo">AICTE</span>
+    <div>
+      <h3>AICTE Eduskills</h3>
+      <p>Virtual Internship</p>
+      <a href="https://lnkd.in/p/d7chDUee"
+         target="_blank" rel="noopener noreferrer"
+         class="cert-link">View Credential ↗</a>
+    </div>
+  </div>
+
+</div>
+
+
+</section>
+<!-- ================= LEARNING LOG ================= -->
+<section class="section" id="learning">
+<div class="container">
+<div class="section-head reveal">
+<p class="section-tag">06 · Learning Log</p>
+<h2>What I'm learning</h2>
+<p class="section-sub">I add something here every time I learn a new concept, tool or technique.</p>
+</div>
+<div class="learn-filters reveal" id="learnFilters"></div>
+<!-- Entries are generated from the LEARNING_LOG list in script.js -->
+<div class="learn-list" id="learnList"></div>
+</div>
+</section>
+<!-- ================= CONTACT ================= -->
+ <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <p class="section-tag">07 · Contact</p>
+          <h2>Let's work together</h2>
+          <p>I'm actively looking for Data Analyst opportunities. If you have a role, a project or just a question, pick any way below to reach me.</p>
+
+          <div class="connect-grid">
+            <a class="connect-card cc-linkedin cc-wide" href="https://www.linkedin.com/in/surajsutar2005/" target="_blank" rel="noopener">
+              <span class="cc-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.850 3.6 0 4.270 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></span>
+              <span class="cc-text"><strong>Connect on LinkedIn</strong><small>Let's connect professionally</small></span>
+              <span class="cc-arrow">↗</span>
+            </a>
+            <a class="connect-card cc-email" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=sutarsuraj843@gmail.com&amp;su=Hello%20Suraj%20-%20from%20your%20portfolio" target="_blank" rel="noopener">
+              <span class="cc-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span>
+              <span class="cc-text"><strong>Email me</strong><small>sutarsuraj843@gmail.com</small></span>
+              <span class="cc-arrow">↗</span>
+            </a>
+            <a class="connect-card cc-github" href="https://github.com/SurajSutar07" target="_blank" rel="noopener">
+              <span class="cc-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1.2.9 2.3v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg></span>
+              <span class="cc-text"><strong>GitHub</strong><small>See my code &amp; projects</small></span>
+              <span class="cc-arrow">↗</span>
+            </a>
+            <a class="connect-card cc-resume" href="assets/Suraj_Sutar_Resume.pdf" target="_blank" rel="noopener">
+              <span class="cc-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg></span>
+              <span class="cc-text"><strong>View Resume</strong><small>PDF · opens in new tab</small></span>
+              <span class="cc-arrow">↗</span>
+            </a>
+          </div>
+
+          <button class="copy-email" id="copyEmail" type="button">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copy email address
+          </button>
+        </div>
+      </div>
+    </section>
+</main>
+<footer class="footer">
+<div class="container footer-inner">
+<p>© <span id="year"></span> Suraj Sutar · Built with HTML, CSS &amp; JavaScript</p>
+<a aria-label="Back to top" class="to-top" href="#home">↑</a>
+</div>
+</footer>
+<div aria-live="polite" class="toast" id="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>
