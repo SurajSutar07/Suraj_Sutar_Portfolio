@@ -686,3 +686,59 @@ a:focus-visible, button:focus-visible {
     font-size: 0.62rem;
   }
 }
+
+@media (max-width: 680px) {
+
+  .hero-visual {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: visible;
+    margin: 25px 0 35px;
+  }
+
+  .photo-wrap {
+    width: min(220px, 65vw);
+    position: relative;
+    margin: 0 auto;
+    overflow: visible;
+  }
+
+  .float-card {
+    display: flex !important;
+    padding: 7px 9px;
+    gap: 6px;
+    font-size: 0.65rem;
+    z-index: 5;
+    transform: scale(0.72);
+  }
+
+  .float-card strong {
+    font-size: 0.75rem;
+  }
+
+  .float-card span {
+    font-size: 0.63rem;
+  }
+
+  /* Power BI */
+  .fc-1 {
+    top: -8%;
+    left: -12%;
+    transform-origin: top left;
+  }
+
+  /* SQL */
+  .fc-2 {
+    bottom: -8%;
+    left: -10%;
+    transform-origin: bottom left;
+  }
+
+  /* Python */
+  .fc-3 {
+    top: 42%;
+    right: -12%;
+    transform-origin: center right;
+  }
+}
